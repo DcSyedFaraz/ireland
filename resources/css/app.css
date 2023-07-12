@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @layer utilities {
+
+    .btn{
+        @apply text-center py-2 px-3 font-semibold ;
+    }
+    .btn-primary{
+        @apply text-center py-2 px-10 font-semibold bg-primary-two hover:bg-primary-one text-white rounded-full;
+    }
+    .primary-color{
+        @apply bg-gradient-to-r from-primary-one to-primary-two;
+    }
+    .primary-heading{
+        @apply text-3xl text-center text-gray-700 leading-8 font-bold py-5;
+    }
+    .primary-text{
+        @apply text-base leading-6 py-2;
+    }
+    /* button group */
+    .btn-group {
+        @apply inline-flex shadow-md hover:shadow-lg focus:shadow-lg;
+    }
+    .btn-group-item {
+        @apply inline-block px-7 py-3 mx-1 bg-primary-one text-white font-medium text-sm leading-snug uppercase hover:bg-primary-two;
+    }
+    .btn-active{
+        @apply text-white bg-primary-two transition duration-150 ease-in-out;
+    }
+    /* Page */
+    .page_minus{
+        @apply rounded-l-full inline-block px-4 py-2 bg-primary-one text-white font-medium text-xl leading-snug uppercase hover:bg-primary-two focus:bg-primary-two focus:outline-none focus:ring-0 active:bg-primary-two transition duration-150 ease-in-out;
+    }
+    .page_input{
+        @apply  border border-primary-two w-full text-center py-2;
+    }
+    .page_plus{
+        @apply rounded-r-full inline-block px-4 py-2 bg-primary-one text-white font-medium text-xl leading-snug uppercase hover:bg-primary-two focus:bg-primary-two focus:outline-none focus:ring-0 active:bg-primary-two transition duration-150 ease-in-out;
+    }
+
+    /* Navbar */
+    .nav-item {
+        @apply block font-semibold py-2 px-4 hover:text-primary-one hover:border-b-2 border-primary-one text-primary-two
+    }
+    .active {
+        @apply text-primary-one border-b-2 border-primary-one
+    }
+    /* Typography */
+    .typo {
+        @apply prose md:prose-lg lg:prose-xl max-w-none
+    }
+    /* Forms */
+    .order-label{
+        @apply bg-white -mt-4 ml-8 px-2 absolute font-bold text-base text-primary-one;
+    }
+    .form-control{
+        @apply w-full text-gray-700 rounded-full border border-primary-two bg-white  focus:border-primary-one focus:ring-2 focus:ring-primary-one text-base outline-none px-3 leading-8 transition-colors duration-200 ease-in-out;
+    }
+    .select-form{
+        @apply py-3;
+    }
+    .input-form{
+        @apply py-2;
+    }
+    .order-label-calculator{
+        @apply bg-transparent -mt-6 ml-4 absolute font-bold text-base text-white;
+    }
+
+    /* Narmeen */
+    .perfect-content {
+        /* @apply mx-32 ; */
+    }
+    .perfect-content h3,h4{
+        @apply my-4 text-3xl;
+    }
+    .perfect-content p{
+        @apply my-3 ;
+    }
+
+    .tl-list li{
+        @apply my-2;
+    }
+
+    /* Service section */
+
+    .page-section h1, h2, h3{
+        @apply text-3xl md:text-4xl text-primary-two font-bold;
+    }
+
+    .page-section p{
+        @apply my-4;
+    }
+
+    .page-section ul li{
+        @apply  before:bg-primary-one before:h-4 before:w-4 before:px-[0.6rem] before:rounded-full before:mr-2 ;
+    }
+
+    /* Blog section */
+    .blog-section {
+        @apply font-montserrat;
+    }
+
+    .blog-section h1, h2, h3{
+        @apply text-3xl md:text-4xl text-[#626262] font-bold;
+    }
+
+    .blog-section  p{
+        @apply c my-2;
+    }
+
+    .blog-section  a{
+        @apply text-blue-400 hover:text-blue-600 underline;
+    }
+
+    .blog-section ul li{
+        @apply  before:bg-primary-one before:h-2 before:w-2 before:px-[0.6rem] before:rounded-full before:mr-2 before:mx-1;
+    }
+
+    .blog-section strong{
+        @apply  text-[#626262];
+    }
+    .contact-input, .form-input{
+        @apply border-primary-one rounded-md pl-4 shadow-sm my-3 py-[8px] border-2 font-light w-full
+
+          }
+
+}
+
+
