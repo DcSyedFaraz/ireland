@@ -149,7 +149,7 @@
     @include('partials.frontend.footer')
 
     {{-- Tawto --}}
-    {{-- {{ TawkTo::widgetCode('https://embed.tawk.to/5ea44eec69e9320caac73ec7/default') }} --}}
+    
 
     {{-- scripts --}}
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>

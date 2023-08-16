@@ -22,7 +22,7 @@
 
             <a href="{{ route('about') }}" class="nav-item {{ request()->routeIs('about') ? 'active' : '' }}">About Us</a>
 
-            @if (count($services) > 0)
+            {{-- @if (count($services) > 0)
                 <div @click.away="open = false" class="relative" x-data="{ open: false }">
                     <button @click="open = !open" class="block font-semibold py-2 px-4 hover:text-primary-one text-primary-two">
                         <span>Services</span>
@@ -38,8 +38,8 @@
                         </div>
                     </div>
                 </div>
-            @endif
-            
+            @endif --}}
+
             @if (Route::has('blogs'))
                 <a href="{{ route('blogs') }}" class="nav-item {{ request()->routeIs('blogs') ? 'active' : '' }}">Blogs</a>
             @endif
@@ -52,15 +52,15 @@
                 <a href="{{ route('order') }}" class="btn-primary animate-wiggle mx-10 md:mx-0">
                     Order
                 </a>
-                
-                <a href="{{ route('login') }}" class="btn-primary  mx-10 md:mx-0 {{ request()->routeIs('login') ? 'active' : '' }}">Login</a>
+
+                <a href="{{ route('login') }}" class="btn-primary  mx-10 md:mx-0 ">Login</a>
                 <span class="relative inline-flex">
                     <img class="h-12 md:pl-4 " src="{{asset('imgs/open-hour.png')}}" alt="{{config('app.name')}}">
                     <div type="button" class="absolute animate-ping top-2 h-8 rounded-full bg-gray-300 py-3 px-5" style=" right: 0.8rem; width: 5rem;" disabled=""> </div>
                 </span>
-                
+
             </div>
-            
+
         </nav>
     </div>
 </div>

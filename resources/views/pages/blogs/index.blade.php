@@ -13,7 +13,7 @@
                     <div class="flex flex-col h-full max-w-lg mx-auto rounded-lg bg-dark-lite bg-opacity-[10%] dark:bg-opacity-50">
                             <a href="{{ route('blogs.show', $blog->slug) }}" class="block bg-gray-50 rounded-lg rounded-b-none">
                                 <img class="rounded-t-lg object-cover h-48 w-96"
-                                src="{{ url(config('app.storage_path') . $blog->image_path) }}" alt="thumbnail"  loading="lazy" />
+                                src="{{ url('storage/app/public/'.$blog->image_path) }}" alt="thumbnail"  loading="lazy" />
                             </a>
                             <div class="flex justify-end -mt-4 px-4">
                                 <span class=" flex h-min space-x-1 items-center rounded-full text-gray-400 bg-gray-800 py-1 px-2 text-xs font-medium">

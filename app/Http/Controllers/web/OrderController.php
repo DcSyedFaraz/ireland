@@ -109,11 +109,12 @@ class OrderController extends Controller
                         'phone'     => request('phone'),
                         'country'   => request('country'),
                         'password'  => Hash::make($this->password),
-                    ],
+                    ]
                 );
 
-            }
                 $user->roles()->sync(2);
+                session()->flash('userData', ['userEmail' => 'Customer Account' . ' ' . $user->email . ' ' . 'created successfully check your email for login credentials', 'userId' => $user->id]);
+            }
 
 
 
@@ -122,7 +123,6 @@ class OrderController extends Controller
                 $request->merge(['user_id' => $user->id, 'package_id' => $request->package, 'deadline_id' =>$deadline_id->id]);
                 // $this->user_created = true;
                 // dd($request);
-                session()->flash('userData', ['userEmail' => 'Customer Account' . ' ' . $user->email . ' ' . 'created successfully check your email for login credentials', 'userId' => $user->id]);
             // dd($request);
             $order = Order::create(
 
@@ -162,6 +162,7 @@ class OrderController extends Controller
                 'flag' => $flag,
                 'invoice' => $invoice,
             ];
+            // dd($order->reference_style);
             // Send mail to user
            Mail::to($request->email)->send(new OrderMail($data));
 

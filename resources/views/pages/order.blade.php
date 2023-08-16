@@ -104,7 +104,7 @@
                         <select name="reference_style" class="form-control select-form ">
                             <option hidden disabled selected>Choose any option</option>
                             @foreach ($reference_styles as $reference_style)
-                                <option {{ old('style') == $reference_style->id ? 'selected' : '' }} value="{{ $reference_style->id }}">
+                                <option {{ old('style') == $reference_style->id ? 'selected' : '' }} value="{{ $reference_style->name }}">
                                     {{ $reference_style->name }}</option>
                             @endforeach
                         </select>
