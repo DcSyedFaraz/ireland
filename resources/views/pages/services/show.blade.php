@@ -20,7 +20,7 @@
     <div class="h-full mx-auto bg-hero-dummy lg:bg-hero-bg bg-no-repeat bg-cover 3xl:bg-none max-w-screen-2xl">
         <div class="hero-color container mx-auto flex flex-col items-center justify-center lg:flex-row lg:space-x-14 pt-10">
 
-            <div class="hidden md:block w-[50%]"></div>
+            <div class="hidden md:block w-[26%]"></div>
 
             <div class="flex flex-col mb-8 items-center text-center lg:flex-grow lg:w-[40%] lg:text-left lg:mb-0"
                 data-aos="fade-right" data-aos-duration="2000">
@@ -31,9 +31,9 @@
 
                     <div class="flex flex-col items-center mx-5 sm:flex-row sm:justify-center md:flex-row lg:flex-row">
                         <div class="p-5">
-                            <img src="{{ asset('imgs/sitejabbarimg.svg') }}" alt="flag" class="mx-auto w-9" />
+                            <img src="{{ asset('imgs/sitejabbarimg.png') }}" alt="flag" class="mx-auto w-9" />
                             <span class="mb-2 sm:mb-0 md:mb-2 lg:mb-0 focus:outline-none text-lg ml-4">
-                                Sitejabbar
+                                Sitejabber
                             </span>
                             <ul class="flex justify-center">
                                 <li class="mr-1">4.9</li>
@@ -215,9 +215,9 @@
                 </div>
             </div>
 
-            <div class="w-full lg:bg-none xl:w-[70%] md:mx-10 md:mt-10" data-aos="fade-up" data-aos-duration="2000">
-                <form class="bg-gradient-to-r from-purple-900 shadow-2xl px-6 py-4 flex flex-col md:ml-auto w-[70%] mx-auto lg:w-full relative z-10 mb-16"
-                    style="background-color: rgb(170, 21, 16, 0.5)">
+            <div class="w-full lg:bg-none xl:w-[52%] md:mx-10 md:mt-10" data-aos="fade-up" data-aos-duration="2000">
+                <form class="bg-gradient-to-r from-green-900 shadow-2xl px-6 py-4 flex flex-col md:ml-auto w-[70%] mx-auto lg:w-full relative z-10 mb-16"
+                    style="background-color: rgba(235, 117, 8, 0.5)">
                     <p class="bg-red- mb-10 text-center text-white text-2xl">Price Calculator</p>
                     <div class="relative mb-6">
                         <label class="order-label-calculator">Academic Level :</label>

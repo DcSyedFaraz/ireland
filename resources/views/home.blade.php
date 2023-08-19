@@ -26,9 +26,9 @@
                 </h1>
                 <p class="primary-text pb-4 text-gray-800">
                     Are you a student struggling to meet your assignment's deadline?
-
+                    <br><br>
                     Do you want a helping hand to share your assignment burden? We are a click away.
-
+<br><br>
                     For any type of assignment help Ireland, talk to us and get your concerns resolved for a smooth academic
                     journey.
 
@@ -37,7 +37,7 @@
                     <div class="p-5">
                         <img src="{{ asset('imgs/sitejabbarimg.png') }}" alt="{{ config('app.name') }}" class="mx-auto w-9" />
                         <span class="mb-2 sm:mb-0 md:mb-2 lg:mb-0 focus:outline-none text-lg ml-4">
-                            Sitejabbar
+                            Sitejabber
                         </span>
                         <ul class="flex justify-center">
                             <li class="mr-1">4.9</li>
@@ -221,7 +221,7 @@
             </div>
             <div class="lg:w-3/4 md:mx-10 my-auto pb-10 lg:pb-0">
                 <form
-                    class="bg-gradient-to-r from-green-900 shadow-2xl px-6 py-8 flex flex-col md:ml-auto w-[70%] mx-auto lg:w-full relative z-10"
+                    class="bg-gradient-to-r from-green-900 shadow-2xl px-6 py-8 flex flex-col md:ml-auto mx-auto lg:w-full relative z-10"
                     style="background-color: rgba(235, 117, 8, 0.5)">
                     <p class="bg-red- mb-10 text-center text-white text-2xl">Price Calculator</p>
                     <div class="flex flex-col md:flex-row md:space-x-2">
@@ -681,7 +681,7 @@
                             @endfor
                         </select>
                         <select class="get-price form-control select-form" id="price-academic-level">
-                            <option hidden="" value="0" disabled="" selected=""> Choose Academic Lavel
+                            <option hidden="" value="0" disabled="" selected=""> Choose Academic Level
                             </option>
                             @foreach ($academic_levels as $academic_level)
                                 <option {{ old('academic_level') == $academic_level->id ? 'selected' : '' }}
@@ -1058,7 +1058,7 @@
                     It’s the story of all students. They have resources to hire a writer but when they search <strong>“write
                         my assignment Ireland” </strong>they get stuck between the many options. We can understand this as
                     being a student, it can be difficult to pick the best writer for your assignments.
-                    <br>
+                    <br><br>
                     When this is the case, always go with one who prioritizes Quality. And that’s the case with us. For us,
                     Quality comes first whether it’s about writing from scratch or editing the already existing papers. We
                     have the best Irish writers who are also specialists in their niches and know the art of writing
@@ -1253,7 +1253,7 @@
                             give you a tailored approach for your assignments that sets you apart from other students. Not
                             only this, our experts assist in making your assignments remarkable. From research to writing to
                             conclusion and presentation, each section is neatly done to let you score higher.
-                            <br>
+                            <br> <br>
                             Keeping Quality as our top priority our experts write assignments that can exceed your
                             professor’s expectations and sets your path towards academic brilliance. And the last most
                             appreciated factor of ours is Timeliness. We respect your time and hence never go a minute above
@@ -1266,7 +1266,7 @@
                             Stress</h4>
                         <p class="text-lg p-5">
                             Overburdened with assignment loads? Or is academic stress giving you sleepless nights?
-                            <br>
+                            <br><br>
                             Now, no more panic as we have the solutions for you. If your assignment is taking too long and
                             the deadline is near, you can rush to our support team. We have a dedicated team who deal with
                             urgent assignment writing Ireland everywhere from Dublin, Cork, Limerick, Galway, Waterford,
@@ -1290,7 +1290,7 @@
                             disappointing grades. So, if you’re feeling stuck or don’t have the ample time to finish it
                             before the deadline, our professional assignment help Ireland service providers can be of great
                             help.
-                            <br>
+                            <br><br>
                             From research to brainstorming ideas to writing the first draft, our writers are well-trained to
                             do the job as per your requirements. With their adeptness in academia, your assignments won’t
                             only stand out but will also show your command over the subject. Still, if you’re searching for
@@ -1306,7 +1306,7 @@
                             can get in touch with the professionals and get assistance regardless of the complexity and the
                             type of the assignments. All our assignment makers possess degrees from the reputable institutes
                             of Ireland. Also, they are highly qualified and hold strong grasp on their subjects.
-                            <br>
+                            <br> <br>
                             So, without any hassles and worries of failing your grades, get your hands on the leading
                             assignment writing service Ireland that is meant to fasten your growth and give you excellent
                             results. Regardless of your subject or level, our dedicated team works closely with you to
@@ -1316,29 +1316,7 @@
 
                     </div>
                 </div>
-                    <div class="">
-                        <h4 class="font-bold px-5 sm:text-4xl text-2xl">
-                            Creating a Legacy of Knowledge through Our Assignment Writing Service Ireland
-                        </h4>
-                        <p class="text-lg p-5">
-                            Our website isn’t just a source of seeking academic help for students but also a platform where
-                            expertise meets creativity in creating assignments that stand as a pillar of scholarly
-                            excellence. We take pride in what we do and how we do. We aren’t only assignment writing Ireland
-                            website but also the architects of intellect whose work is to weave insights and research into
-                            papers that ignites innovation.
-                            <br>
-                            Our platform guarantees exclusivity, diversification of subjects, instant help, affordability
-                            and quality-driven assignments. So, feel free to contact us in harnessing the power of words to
-                            create a legacy with your assignments.
-                        </p>
-                        <h4 class="font-bold px-5 sm:text-4xl text-2xl">
-                            Here’s a Chance to Get on Top of your Assignments with the Best Do My Assignment Ireland Website
-                            as We Guarantee Success by Letting You Create an Impact with the Power of Words. Now, Get Ready
-                            to Climb the Ladder of Success!
-                        </h4>
-
-
-                    </div>
+                
 
 
 
@@ -1362,9 +1340,11 @@
                         </summary>
                         <div class="bg-white p-4 rounded-sm">
                             <span class="text-gray-500 text-sm">
-                                Yes, we can give you on an urgent basis. We have a dedicated writing department that handles
-                                urgent assignment writing Ireland. But the prices will be a bit higher than the regular
-                                ones.
+                                A. Sure, we can! We have a dedicated department that deals with the urgent queries. So, no
+                                matter whether you wake up in the middle of the night dreading the deadline or you get to
+                                know a day before, you can contact our support team for urgent assignment writing Ireland.
+                                Also, the services aren’t over-priced and you will also find quality in it as our qualified
+                                writers deal with the short-deadline assignments.
                             </span>
                         </div>
                     </details>
@@ -1375,9 +1355,12 @@
                         </summary>
                         <div class="bg-white p-4 rounded-sm">
                             <span class="text-gray-500 text-sm">
-                                You can ask us for Free Revisions. Customer Satisfaction is our top priority and if there’s
-                                anything lacking from our side, we will try our best to handle it. Also, note that we offer
-                                limited revisions.
+                                A. All our assignments are well-researched, quality-driven, prepared and proofread by
+                                experts. Our Quality Assurance team ensures all requirements are met before we deliver the
+                                assignment. So, there’s hardly any room left for revisions. But still, if you aren’t happy
+                                with the final results, you are always welcome to seek assistance on your papers. With our
+                                assignment help Ireland, we always make sure to do it up to your requirements as your
+                                satisfaction is our utmost priority.
                             </span>
                         </div>
                     </details>
@@ -1388,9 +1371,12 @@
                         </summary>
                         <div class="bg-white p-4 rounded-sm">
                             <span class="text-gray-500 text-sm">
-                                First our customer support team manages the queries. But if someone directly wants to
-                                connect to the writer for the best results, they can. In addition, you can also track your
-                                assignment outline or first draft to know the progress of your order.
+                                A. We know you’re searching for someone for “write my assignment Ireland services.” For
+                                this, we have a continuous support team who are ready to assist you anytime no matter how
+                                complex your queries are. All our support specialists are well-trained for their jobs. But
+                                still, if you want to talk to the writer, you can request our support team members and they
+                                will connect you with the writer. You can consult your queries and gain satisfaction
+                                regarding the professional who’s working on your assignment.
                             </span>
                         </div>
                     </details>
@@ -1401,10 +1387,12 @@
                         </summary>
                         <div class="bg-white p-4 rounded-sm">
                             <span class="text-gray-500 text-sm">
-                                We understand that students are short on budget and don’t have a lot of money to hire
-                                professional academic support. This is the reason we have kept our prices economical. Our
-                                pricing starts below $10 and varies according to the assignment type, requirements, and
-                                deadlines.
+                                A. We understand that students are short on budget and don’t have a lot of money to hire
+                                professional academic support. This is the reason we have already kept our prices
+                                economical. Our pricing starts below $10 and varies according to the assignment type,
+                                requirements, and deadlines. So, while coming to us you don’t need to worry about the
+                                pricing as our aim is to help you grow while keeping our assignment writing service charges
+                                low.
                             </span>
                         </div>
                     </details>
@@ -1415,9 +1403,11 @@
                         </summary>
                         <div class="bg-white p-4 rounded-sm">
                             <span class="text-gray-500 text-sm">
-                                Yes, all the time! We only use your personal information to deliver orders and maintain the
-                                log. There’s no other purpose. We neither intend nor use your information for
-                                advertisements.
+                                A. Yes, all the time! We only use your personal information to deliver orders and maintain
+                                the log. There’s no other purpose. We neither intend nor use your information for
+                                advertisements. Secondly, it’s also against our policies to use client’s information for any
+                                other purpose. So, don’t worry your anonymity will always remain confidential with our
+                                assignment help Ireland services.
                             </span>
                         </div>
                     </details>
@@ -1428,9 +1418,70 @@
                         </summary>
                         <div class="bg-white p-4 rounded-sm">
                             <span class="text-gray-500 text-sm">
-                                Yes, we do! We have laid the foundation of our services on the basis of Quality. And it's
+                                A. Yes, we do! We have laid the foundation of our services on the basis of Quality. And it's
                                 only because of Quality that we have a high ratio of returning customers. You can put your
-                                trust in us as we guarantee high-quality services.
+                                trust in us before you hire our “do my assignment” services as we guarantee success with
+                                quality-driven assignments.
+                            </span>
+                        </div>
+                    </details>
+                    <details class="mb-4 relative">
+                        <summary
+                            class="cursor-pointer font-semibold w-full text-gray-600 rounded-xl lg:rounded-full border border-gray-300 bg-white focus:border-primary-one text-base py-2 px-3 leading-8 mb-1">
+                            7. Will an Irish writer write my assignment for me?
+                        </summary>
+                        <div class="bg-white p-4 rounded-sm">
+                            <span class="text-gray-500 text-sm">
+                                A. Yes, all the time. We have a team of native writers who work according to the Irish
+                                academic standards. They aren’t only qualified from the top institutes in Ireland but also
+                                have a good experience in academia while also working with students. Our team guarantees
+                                premium quality work and always stays updated with Ireland educational trends. Your
+                                assignment will be in safe hands, no worries.
+                            </span>
+                        </div>
+                    </details>
+                    <details class="mb-4 relative">
+                        <summary
+                            class="cursor-pointer font-semibold w-full text-gray-600 rounded-xl lg:rounded-full border border-gray-300 bg-white focus:border-primary-one text-base py-2 px-3 leading-8 mb-1">
+                            8. Can you do my assignment for me Ireland in 24 hours?
+                        </summary>
+                        <div class="bg-white p-4 rounded-sm">
+                            <span class="text-gray-500 text-sm">
+                                A. It depends on the requirements; its length, complexity and subject type. Usually, it
+                                takes 10-15 days for a lengthy assignment but if it’s something that can be done in 24
+                                hours, we will definitely try to help. Also, in this regard you can seek our emergency
+                                assignment writing Ireland for urgent help.
+                            </span>
+                        </div>
+                    </details>
+                    <details class="mb-4 relative">
+                        <summary
+                            class="cursor-pointer font-semibold w-full text-gray-600 rounded-xl lg:rounded-full border border-gray-300 bg-white focus:border-primary-one text-base py-2 px-3 leading-8 mb-1">
+                            9. How are your assignment writing service Ireland better than others?
+                        </summary>
+                        <div class="bg-white p-4 rounded-sm">
+                            <span class="text-gray-500 text-sm">
+                                A. We have a long list of returning customers who are seeking our services repeatedly. Plus,
+                                we also receive services via our client’s recommendations. We have served 25000+ orders till
+                                now and are still on the journey to help more students via our top of the line, quality
+                                services. These stats make us say that we are doing far better than others in the same line.
+                                If you aren’t sure yet, you can try us with a sample paper and you will also be impressed,
+                                that’s our guarantee.
+                            </span>
+                        </div>
+                    </details>
+                    <details class="mb-4 relative">
+                        <summary
+                            class="cursor-pointer font-semibold w-full text-gray-600 rounded-xl lg:rounded-full border border-gray-300 bg-white focus:border-primary-one text-base py-2 px-3 leading-8 mb-1">
+                            10. Are you also based in Dublin?
+                        </summary>
+                        <div class="bg-white p-4 rounded-sm">
+                            <span class="text-gray-500 text-sm">
+                                A. Yes, we are a Dublin-based assignment writing help website. But we aren’t limited to
+                                Dublin only. We also provide our services in Belfast, Galway, Cork, Limerick, Waterford and
+                                other cities of Ireland. Not only that, if you’re from the UK or USA, you can also contact
+                                our support team and get your “write my assignment” queries resolved according to the
+                                requirements.
                             </span>
                         </div>
                     </details>
@@ -1438,6 +1489,50 @@
             </div>
         </div>
     </section>
+
+    <section class="overflow-hidden mt-10 pb-24 px-4">
+        <div class="container mx-auto">
+            <!-- heading -->
+            <div class="mt-10 text-center">
+
+            </div>
+
+            <div class="grid mt-20 ">
+                <!-- grid 1 -->
+                <div>
+                    <div class="bg-white rounded-r-3xl rounded-tl-3xl ring-2 shadow-xl p-5">
+                        <div class="flex justify-between items-center ">
+                            <div>
+                                <h3 class="font-bold text-xl">Creating a Legacy of Knowledge through Our Assignment Writing Service Ireland</h3>
+                            </div>
+                            <div class="">
+                                <img alt="{{ config('app.name') }}" src="{{ asset('images/write-file.png') }}">
+                            </div>
+                        </div>
+                        <p class="text-sm mt-5">
+                            Our website isn’t just a source of seeking academic help for students but also a platform where
+                        expertise meets creativity in creating assignments that stand as a pillar of scholarly
+                        excellence. We take pride in what we do and how we do. We aren’t only assignment writing Ireland
+                        website but also the architects of intellect whose work is to weave insights and research into
+                        papers that ignites innovation.
+                        <br>
+                        Our platform guarantees exclusivity, diversification of subjects, instant help, affordability
+                        and quality-driven assignments. So, feel free to contact us in harnessing the power of words to
+                        create a legacy with your assignments.
+                        </p>
+                        <h4 class="font-bold px-5 sm:text-4xl text-2xl">
+                            Here’s a Chance to Get on Top of your Assignments with the Best Do My Assignment Ireland Website
+                            as We Guarantee Success by Letting You Create an Impact with the Power of Words. Now, Get Ready
+                            to Climb the Ladder of Success!
+                        </h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
 @endsection
 @section('scripts')
     {{-- Tabs JS --}}

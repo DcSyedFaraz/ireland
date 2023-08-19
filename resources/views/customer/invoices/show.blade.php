@@ -49,7 +49,7 @@
                                     <td>{{ addCurrency($invoice->amount) }}</td>
                                     <td>
                                         @if ($invoice->status_id == 4)
-                                            <a href="{{route('invoice', ['reference' => $invoice->ref_no, 'gatway' => 'stripe', 'source'=>'cheap-cv-writer'] )}}"
+                                            <a href="{{route('invoice', ['reference' => $invoice->ref_no, 'gateway' => 'stripe', 'source=' . config('app.source')] )}}"
                                                 class="btn btn-primary btn-sm" target="_blank">
                                                 Pay with Debit / Credit Card
                                             </a>

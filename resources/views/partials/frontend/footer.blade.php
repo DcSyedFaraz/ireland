@@ -4,7 +4,7 @@
     <div class="container md:px-9 lg:py-24 mx-auto">
 
         <div
-            class="grid grid-cols-1 text-center items-center md:text-left sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pt-5 gap-x-4 mx-auto md:mx-0 ">
+            class="grid grid-cols-1 text-center md:text-left sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pt-5 gap-x-4 mx-auto md:mx-0 ">
 
             <div class="px-4 mx-auto md:mx-0">
 
@@ -24,7 +24,7 @@
             <div class="px-4 ">
                 <h4 class="text-2xl title-font font-medium text-white mb-3">Navigation</h4>
                 <ul class="list-none mb-10">
-                    <li class="py-1"><a href="{{ asset('home') }}"
+                    <li class="py-1"><a href="{{ route('home') }}"
                             class="text-white hover:text-gray-300 text-md">Home</a></li>
                     <li class="py-1"><a href="{{ route('about') }}"
                             class="text-white hover:text-gray-300 text-md">About</a></li>
@@ -45,12 +45,12 @@
                 <h4 class="text-2xl title-font font-medium text-white mb-3">Services</h4>
                 <ul class="list-none mb-10">
                     @if (!empty($services))
-                        <!--@foreach(App\Service::all() as $service)-->
-                        <!--<li class="py-1">-->
-                        <!--    <a href="{{route('services.show',$service->slug)}}" class="text-white hover:text-gray-300 text-md">{{$service->name}}</a>-->
-                        <!--</li>-->
-                        <!--@endforeach-->
+                        @foreach($services as $service)
                         <li class="py-1">
+                            <a href="{{route('services.show',$service->slug)}}" class="text-white hover:text-gray-300 text-md">{{$service->name}}</a>
+                        </li>
+                        @endforeach
+                        {{-- <li class="py-1">
                             <a href="#" class="text-white hover:text-gray-300 text-md">CV Writing</a>
                         </li>
                         <li class="py-1">
@@ -61,7 +61,7 @@
                         </li>
                         <li class="py-1">
                             <a href="#" class="text-white hover:text-gray-300 text-md">Dessertation Writing</a>
-                        </li>
+                        </li> --}}
 
                     @endif
                 </ul>
@@ -69,24 +69,24 @@
 
             <div class="px-4 ">
                 <h4 class="text-2xl title-font font-medium text-white mb-3">Contact</h4>
-                <ul class="list-none mb-5">
-                    
+                <ul class="list-none mb-5 ml-[1rem] sm:ml-0 text-justify">
+
                      <li class="py-1">
-                        <div class="flex">
+                        <div class="flex justify-center md:justify-start">
                             <img class="h-[1.2rem] mx-1 mr-1" src="{{asset('imgs/ft-whatsapp.png')}}" alt="{{env('APP_NAME')}}"> <a href="https://api.whatsapp.com/send?phone={{ $web_setting->contact }}" class="text-white hover:text-gray-300 text-md">{{ '+'.$web_setting->contact }}</a>
                         </div>
                     </li>
                     <li class="py-1">
-                        <div class="flex">
+                        <div class="flex justify-center md:justify-start">
                             <img class="h-[1.2rem] w-[1.6rem] mr-1" src="{{asset('imgs/ft-envelop.png')}}" alt="{{env('APP_NAME')}}">
                             <a href="mailto:{{ $web_setting->email }}" class="text-white hover:text-gray-300 text-md">
                                 {{ $web_setting->email }}
                             </a>
                         </div>
                     </li>
-                    
+
                 </ul>
-                 <div class="inline-flex pt-4 space-x-5 items-center">                    
+                 <div class="inline-flex pt-4 space-x-5 items-center">
                     <a href="https://www.facebook.com/Best-Assignment-Writing-Service-in-Ireland-110391461676315" target="_blank">
                         <img src="{{ asset('imgs/fb.svg') }}" class="h-8" alt="{{ config('app.name') }}">
                     </a>
@@ -103,11 +103,11 @@
     <div class="bg-gray-300 ">
         <div
             class="container mx-auto flex flex-col lg:flex-row items-center space-y-4 md:space-y-0 justify-between mt-5 py-2 md:px-20">
-            <p class="mx-6 text-center sm:mx-0 sm:text-left">
+            <p class="mx-10 text-center sm:mx-0 sm:text-left">
                 © Copyright {{ now()->year }}, <span class="text-primary font-bold"> assignmentwritingireland.com </span> All Rights
                 Reserved
             </p>
-            <ul class="flex flex-col md:flex-row items-center space-x-4">
+            <ul class="flex flex-col md:flex-row items-center sm:space-x-4">
                 <li class="hover:text-primary-two">
                     <a href="{{ route('policy.privacy-policy') }}"> Privacy Policy </a>
                 </li>

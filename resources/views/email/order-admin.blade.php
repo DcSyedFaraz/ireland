@@ -6,12 +6,12 @@
             <tbody>
                 <tr>
                     <td>
-                        <div>
+                        <div style="line-height: 46.8px; font-size: 36px;">
                             #Order from {{ config('app.app_name') }},
                             <br>
 
                             <br>
-                            <table>
+                            <table align="center">
                                 <tbody>
                                     <tr>
                                         <th class="table_style">Name</th>

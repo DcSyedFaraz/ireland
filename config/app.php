@@ -53,12 +53,16 @@ return [
     |
     */
 
+    
     'url' => env('APP_URL', 'http://localhost'),
     'app_name' => 'Assignment Writing Ireland',
-
+    'tawk_to' => env('TAWKTO_LINK'),
     'asset_url' => env('ASSET_URL', null),
     'mail_address' => env('MAIL_FROM_ADDRESS'),
     'slug' => env('APP_SLUG', 'awistudio'),
+    'payment' => env('PAYMENT_APP_URL'),
+    'source' =>env('APP_SLUG'),
+
 
     /*
     |--------------------------------------------------------------------------
