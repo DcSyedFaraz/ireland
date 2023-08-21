@@ -14,7 +14,7 @@
 
                 <div class="inline-flex pt-8 space-x-4 items-center">
                     <a href="#">
-                        <img src="{{ asset('imgs/payment-logos.png') }}" class="h-8"
+                        <img src="{{ asset('imgs/payment-logos.webp') }}" class="h-8"
                             alt="{{ config('app.name') }}">
                     </a>
                 </div>

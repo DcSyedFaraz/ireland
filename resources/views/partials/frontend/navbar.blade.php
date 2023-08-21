@@ -4,7 +4,7 @@
         class="flex flex-col container px-2 mx-auto lg:items-center lg:justify-between lg:flex-row">
         <div class="px-4 flex flex-row items-center justify-between">
             <a class="flex items-center py-4 px-2" href="{{ route('home') }}">
-                <img src="{{ asset('imgs/logo.png') }}" alt="{{config('app.name')}}" class="h-16 mt-3" />
+                <img src="{{ asset('imgs/logo.webp') }}" alt="{{config('app.name')}}" class="h-16 mt-3" />
             </a>
             <button class="lg:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
                 <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -55,7 +55,7 @@
 
                 <a href="{{ route('login') }}" class="btn-primary  mx-10 md:mx-0 ">Login</a>
                 <span class="relative inline-flex">
-                    <img class="h-12 md:pl-4 " src="{{asset('imgs/open-hour.png')}}" alt="{{config('app.name')}}">
+                    <img class="h-12 md:pl-4 " src="{{asset('imgs/open-hour.webp')}}" alt="{{config('app.name')}}">
                     <div type="button" class="absolute animate-ping top-2 h-8 rounded-full bg-gray-300 py-3 px-5" style=" right: 0.8rem; width: 5rem;" disabled=""> </div>
                 </span>
 

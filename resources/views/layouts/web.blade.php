@@ -8,7 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     {{-- No Index --}}
-    <meta name="robots" content="noindex">
+    {{-- <meta name="robots" content="noindex"> --}}
+
+    {{-- index --}}
+    <meta name="robots" content="index,follow">
 
     {{-- CSRF Token --}}
     <meta name="csrf-token" content="xFfFMm0UfLUjLAT6s3EW3gIZplo9RTcKeiBHRHCz">
@@ -149,7 +152,7 @@
     @include('partials.frontend.footer')
 
     {{-- Tawto --}}
-    
+
 
     {{-- scripts --}}
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>

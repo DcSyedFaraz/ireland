@@ -7,13 +7,13 @@ module.exports = {
         extend: {
             backgroundImage: theme => ({
                 'top-bg': "url('../../imgs/topbg.png')",
-                'hero-bg': "url('../../imgs/wave.png')",
+                'hero-bg': "url('../../imgs/wave.webp')",
                 'hero-dummy': "url('../../imgs/herobg2.png')",
-                'hero-bgwaves': "url('../../imgs/hero-waves.png')",
+                'hero-bgwaves': "url('../../imgs/hero-waves.webp')",
                 'cost-bg': "url('../../imgs/costbg.png')",
                 'getStart-bg': "url('../../imgs/justClickbg.svg')",
                 'girlimg': "url('../../imgs/tm-girl.jpg')",
-                'wavesbg': "url('../../imgs/waves.png')",
+                'wavesbg': "url('../../imgs/waves.webp')",
             }),
             colors: {
                 'primary-one': '#099A48', //green

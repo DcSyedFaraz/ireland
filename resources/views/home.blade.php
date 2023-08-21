@@ -165,7 +165,7 @@
 
                     <div class="p-5">
                         <a href="https://reviewsbank.org/best-assignment-writing-services-ireland/" target="_blank">
-                            <img src="{{ asset('imgs/reviewsbank.png') }}" alt="{{ config('app.name') }}"
+                            <img src="{{ asset('imgs/reviewsbank.webp') }}" alt="{{ config('app.name') }}"
                                 class="mx-auto h-14" />
                         </a>
                         <ul class="flex justify-center">
@@ -314,7 +314,7 @@
 
             <div class="flex space-x-4 lg:ml-12" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
                 <div>
-                    <img src="{{ asset('imgs/icon2.svg') }}" class="h-20" />
+                    <img alt="img" src="{{ asset('imgs/icon2.svg') }}" class="h-20" />
                 </div>
 
                 <div>
@@ -358,7 +358,7 @@
 
                 <div class="flex items-center mt-4">
                     <a href="#" class="block relative">
-                        <img src="{{ asset('imgs/boy3.png') }}" class="mx-auto rounded-full h-16 w-16 "
+                        <img src="{{ asset('imgs/boy3.webp') }}" class="mx-auto rounded-full h-16 w-16 "
                             alt="{{ config('app.name') }}">
                     </a>
                     <div class="flex flex-col ml-2 justify-between">
@@ -457,7 +457,7 @@
 
                 <div class="flex items-center mt-4">
                     <a href="#" class="block relative">
-                        <img src="{{ asset('imgs/boy3.png') }}" class="mx-auto rounded-full h-16 w-16 "
+                        <img src="{{ asset('imgs/boy3.webp') }}" class="mx-auto rounded-full h-16 w-16 "
                             alt="{{ config('app.name') }}">
                     </a>
                     <div class="flex flex-col ml-2 justify-between">
@@ -556,7 +556,7 @@
 
                 <div class="flex items-center mt-4">
                     <a href="#" class="block relative">
-                        <img src="{{ asset('imgs/boy3.png') }}" class="mx-auto rounded-full h-16 w-16 "
+                        <img src="{{ asset('imgs/boy3.webp') }}" class="mx-auto rounded-full h-16 w-16 "
                             alt="{{ config('app.name') }}">
                     </a>
                     <div class="flex flex-col ml-2 justify-between">
@@ -835,7 +835,7 @@
                         </span>
                     </div>
                     <div data-aos="fade-left" data-aos-duration="1000">
-                        <img src="{{ asset('imgs/boy2.png') }}" class="h-[18rem]" alt="{{ config('app.name') }}" />
+                        <img src="{{ asset('imgs/boy2.webp') }}" class="h-[18rem]" alt="{{ config('app.name') }}" />
                     </div>
                 </div>
             </div>
@@ -857,10 +857,10 @@
     <section>
         <h4 class="primary-heading">Testimonials</h4>
         <div class="container relative lg:px-36 mx-auto">
-            <img src="{{ asset('imgs/tm-boy.png') }}" data-aos="fade-left" data-aos-duration="1000"
+            <img src="{{ asset('imgs/tm-boy.webp') }}" data-aos="fade-left" data-aos-duration="1000"
                 class="invisible md:visible h-[15rem] mt-[4rem] -ml-[3rem] absolute -z-10"
                 alt="{{ config('app.name') }}" />
-            <img src="{{ asset('imgs/tm-girl.png') }}" data-aos="fade-right" data-aos-duration="1000"
+            <img src="{{ asset('imgs/tm-girl.webp') }}" data-aos="fade-right" data-aos-duration="1000"
                 class="invisible lg:visible h-[15rem] mt-[4rem] mr-[6rem] absolute right-0 -z-10"
                 alt="{{ config('app.name') }}" />
 
@@ -1072,7 +1072,7 @@
             <div class="mx-auto my-auto">
                 <div class="flex flex-col md:flex-row space-3">
                     <div class="">
-                        <img class="animate-waving-hand h-[13rem]" src="{{ asset('imgs/boy3.png') }}"
+                        <img class="animate-waving-hand h-[13rem]" src="{{ asset('imgs/boy3.webp') }}"
                             alt="{{ config('app.name') }}" />
                     </div>
 
@@ -1087,7 +1087,7 @@
 
         <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto px-8 lg:px-28 py-14 gap-x-8 gap-y-8">
             <div data-aos="fade-up" data-aos-duration="1300">
-                <img src="{{ asset('imgs/service-icon1.png') }}" class="w-16" alt="{{ config('app.name') }}" />
+                <img src="{{ asset('imgs/service-icon1.webp') }}" class="w-16" alt="{{ config('app.name') }}" />
                 <h4 class="font-bold text-lg pb-3 pt-2"> Quality </h4>
                 <p class="text-gray-700 text-sm mb-4">
                     It’s the first thing you will notice in our services. We aim to give you the best and write papers from
@@ -1099,7 +1099,7 @@
             </div>
 
             <div data-aos="fade-up" data-aos-duration="1600">
-                <img src="{{ asset('imgs/service-icon2.png') }}" class="w-16" alt="{{ config('app.name') }}" />
+                <img src="{{ asset('imgs/service-icon2.webp') }}" class="w-16" alt="{{ config('app.name') }}" />
                 <h4 class="font-bold text-lg pb-3 pt-2">Affordability</h4>
                 <p class="text-gray-700 text-sm mb-4">
                     After quality, what’s the second main concern of students? Affordability! We offer assignment help
@@ -1111,7 +1111,7 @@
             </div>
 
             <div data-aos="fade-up" data-aos-duration="1900">
-                <img src="{{ asset('imgs/service-icon3.png') }}" class="w-16" alt="{{ config('app.name') }}" />
+                <img src="{{ asset('imgs/service-icon3.webp') }}" class="w-16" alt="{{ config('app.name') }}" />
                 <h4 class="font-bold text-lg pb-3 pt-2">Free Turnitin Report</h4>
                 <p class="text-gray-700 text-sm mb-4">
                     Students have a lot of plagiarism concerns when hiring online assignment writing service. That’s why
@@ -1124,7 +1124,7 @@
             </div>
 
             <div data-aos="fade-up" data-aos-duration="2200">
-                <img src="{{ asset('imgs/service-icon4.png') }}" class="w-16" alt="{{ config('app.name') }}" />
+                <img src="{{ asset('imgs/service-icon4.webp') }}" class="w-16" alt="{{ config('app.name') }}" />
                 <h4 class="font-bold text-lg pb-3 pt-2">Research-Driven Assignments</h4>
                 <p class="text-gray-700 text-sm mb-4">
                     This is one of our best features. We assure authentic and accurate information with explanatory data and
@@ -1136,7 +1136,7 @@
             </div>
 
             <div data-aos="fade-up" data-aos-duration="1300">
-                <img src="{{ asset('imgs/service-icon5.png') }}" class="w-16" alt="{{ config('app.name') }}" />
+                <img src="{{ asset('imgs/service-icon5.webp') }}" class="w-16" alt="{{ config('app.name') }}" />
                 <h4 class="font-bold text-lg pb-3 pt-2">Best Irish Writers</h4>
                 <p class="text-gray-700 text-sm mb-4">
                     It’s hard to find the best Irish writers. Many claim results but don’t deliver it in their assignments.
@@ -1149,7 +1149,7 @@
             </div>
 
             <div data-aos="fade-up" data-aos-duration="1600">
-                <img src="{{ asset('imgs/service-icon6.png') }}" class="w-16" alt="{{ config('app.name') }}" />
+                <img src="{{ asset('imgs/service-icon6.webp') }}" class="w-16" alt="{{ config('app.name') }}" />
                 <h4 class="font-bold text-lg pb-3 pt-2">Instant Help</h4>
                 <p class="text-gray-700 text-sm mb-4">
                     Now you don’t need to wake up in the middle of the night from the assignment stress. If you have an
@@ -1161,7 +1161,7 @@
             </div>
 
             <div data-aos="fade-up" data-aos-duration="1900">
-                <img src="{{ asset('imgs/service-icon7.png') }}" class="w-16" alt="{{ config('app.name') }}" />
+                <img src="{{ asset('imgs/service-icon7.webp') }}" class="w-16" alt="{{ config('app.name') }}" />
                 <h4 class="font-bold text-lg pb-3 pt-2">Expert Assistance</h4>
                 <p class="text-gray-700 text-sm mb-4">
                     All the papers are passed through our Quality Assurance team before we submit them to you. The team
@@ -1173,7 +1173,7 @@
             </div>
 
             <div data-aos="fade-up" data-aos-duration="2200">
-                <img src="{{ asset('imgs/service-icon8.png') }}" class="w-16" alt="{{ config('app.name') }}" />
+                <img src="{{ asset('imgs/service-icon8.webp') }}" class="w-16" alt="{{ config('app.name') }}" />
                 <h4 class="font-bold text-lg pb-3 pt-2">Free Revisions</h4>
                 <p class="text-gray-700 text-sm mb-4">
                     If you aren’t fully satisfied with our papers you can claim free revisions. We will look over your
@@ -1204,7 +1204,7 @@
                     Fill in your order details.
                 </div>
                 <div class="absolute -ml-[0.75rem] mt-[0.55rem]">
-                    <img src="{{ asset('imgs/count1.png') }}" class="w-6 h-7" alt="{{ config('app.name') }}" />
+                    <img src="{{ asset('imgs/count1.webp') }}" class="w-6 h-7" alt="{{ config('app.name') }}" />
                 </div>
             </li>
 
@@ -1213,7 +1213,7 @@
                     Pay us in advance to confirm your order.
                 </div>
                 <div class="absolute -ml-[0.75rem] mt-[0.55rem]">
-                    <img src="{{ asset('imgs/count2.png') }}" class="w-6 h-7" alt="{{ config('app.name') }}" />
+                    <img src="{{ asset('imgs/count2.webp') }}" class="w-6 h-7" alt="{{ config('app.name') }}" />
                 </div>
             </li>
 
@@ -1222,7 +1222,7 @@
                     Track your assignment progress (optional)
                 </div>
                 <div class="absolute -ml-[0.75rem] mt-[0.75rem]">
-                    <img src="{{ asset('imgs/count3.png') }}" class="w-6 h-7" alt="{{ config('app.name') }}" />
+                    <img src="{{ asset('imgs/count3.webp') }}" class="w-6 h-7" alt="{{ config('app.name') }}" />
                 </div>
             </li>
 
@@ -1231,7 +1231,7 @@
                     Get your assignments before the deadline.
                 </div>
                 <div class="absolute -ml-[0.75rem] mt-[0.55rem]">
-                    <img src="{{ asset('imgs/count4.png') }}" class="w-6 h-7" alt="{{ config('app.name') }}" />
+                    <img src="{{ asset('imgs/count4.webp') }}" class="w-6 h-7" alt="{{ config('app.name') }}" />
                 </div>
             </li>
         </ul>
@@ -1316,7 +1316,7 @@
 
                     </div>
                 </div>
-                
+
 
 
 
@@ -1501,11 +1501,11 @@
                 <!-- grid 1 -->
                 <div>
                     <div class="bg-white rounded-r-3xl rounded-tl-3xl ring-2 shadow-xl p-5">
-                        <div class="flex justify-between items-center ">
-                            <div>
-                                <h3 class="font-bold text-xl">Creating a Legacy of Knowledge through Our Assignment Writing Service Ireland</h3>
+                        <div class="flex items-center ">
+                            <div class=" text-center">
+                                <h3 class="font-bold text-3xl">Creating a Legacy of Knowledge through Our Assignment Writing Service Ireland</h3>
                             </div>
-                            <div class="">
+                            <div class="ml-[10%] sm:block hidden">
                                 <img alt="{{ config('app.name') }}" src="{{ asset('images/write-file.png') }}">
                             </div>
                         </div>

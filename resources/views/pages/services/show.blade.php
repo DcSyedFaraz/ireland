@@ -17,7 +17,7 @@
 @section('content')
 
     {{-- Hero --}}
-    <div class="h-full mx-auto bg-hero-dummy lg:bg-hero-bg bg-no-repeat bg-cover 3xl:bg-none max-w-screen-2xl">
+    <div class="h-full mx-auto  lg:bg-hero-bg bg-no-repeat bg-cover 3xl:bg-none max-w-screen-2xl">
         <div class="hero-color container mx-auto flex flex-col items-center justify-center lg:flex-row lg:space-x-14 pt-10">
 
             <div class="hidden md:block w-[26%]"></div>
@@ -25,9 +25,9 @@
             <div class="flex flex-col mb-8 items-center text-center lg:flex-grow lg:w-[40%] lg:text-left lg:mb-0"
                 data-aos="fade-right" data-aos-duration="2000">
                 <div class="px-10 mt-6 md:px-20 lg:px-0 lg:w-full">
-                    <h1 class="text-center text-black-500 text-2xl md:text-3xl lg:text-4xl font-bold pb-4">
+                    <p class="text-center text-black-500 text-2xl md:text-3xl lg:text-4xl font-bold pb-4">
                         {{ $service->name }}
-                    </h1>
+                    </p>
 
                     <div class="flex flex-col items-center mx-5 sm:flex-row sm:justify-center md:flex-row lg:flex-row">
                         <div class="p-5">

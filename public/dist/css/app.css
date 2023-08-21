@@ -961,6 +961,10 @@ video {
   margin-left: 2.25rem;
 }
 
+.ml-\[10\%\] {
+  margin-left: 10%;
+}
+
 .ml-\[1rem\] {
   margin-left: 1rem;
 }
@@ -1664,10 +1668,6 @@ video {
   place-items: center;
 }
 
-.content-start {
-  align-content: flex-start;
-}
-
 .items-end {
   align-items: flex-end;
 }
@@ -1694,10 +1694,6 @@ video {
 
 .justify-evenly {
   justify-content: space-evenly;
-}
-
-.justify-items-end {
-  justify-items: end;
 }
 
 .justify-items-center {
@@ -2154,11 +2150,6 @@ video {
   background-color: rgb(39 105 103 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#95CEFF\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(149 206 255 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#D9D9D9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(217 217 217 / var(--tw-bg-opacity));
@@ -2324,15 +2315,11 @@ video {
 }
 
 .bg-hero-bg {
-  background-image: url('../../imgs/wave.png');
-}
-
-.bg-hero-dummy {
-  background-image: url('../../imgs/herobg2.png');
+  background-image: url('../../imgs/wave.webp');
 }
 
 .bg-wavesbg {
-  background-image: url('../../imgs/waves.png');
+  background-image: url('../../imgs/waves.webp');
 }
 
 .from-\[\#FCA00F\] {
@@ -2829,16 +2816,6 @@ video {
 
 .tracking-wider {
   letter-spacing: 0.05em;
-}
-
-.text-\[\#1F639C\] {
-  --tw-text-opacity: 1;
-  color: rgb(31 99 156 / var(--tw-text-opacity));
-}
-
-.text-\[\#3CAEA3\] {
-  --tw-text-opacity: 1;
-  color: rgb(60 174 163 / var(--tw-text-opacity));
 }
 
 .text-\[\#626262\] {
@@ -4813,6 +4790,10 @@ video {
     margin-left: 0px;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
   .sm\:inline {
     display: inline;
   }
@@ -5396,7 +5377,7 @@ video {
   }
 
   .lg\:bg-hero-bg {
-    background-image: url('../../imgs/wave.png');
+    background-image: url('../../imgs/wave.webp');
   }
 
   .lg\:bg-none {
