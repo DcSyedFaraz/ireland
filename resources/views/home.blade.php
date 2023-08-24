@@ -1280,10 +1280,10 @@
                 </p>
             </div>
         </div>
-        <div class="">
+        {{-- <div class="">
             <img src="{{ asset('images/separator.svg') }}" alt="separator">
-        </div>
-        <div class="space-x-2 container grid grid-cols-1 lg:grid-cols-2 mx-auto px-8 lg:px-16 ">
+        </div> --}}
+        <div class="space-x-2 container grid grid-cols-1 lg:grid-cols-2 mx-auto px-8 lg:px-16 border-[1rem] border-primary-two border-x-0">
             <div class="my-auto" data-aos="fade-left" data-aos-duration="2000">
                 <h3 class="primary-heading">
                     From Ideas to Excellence - Get Assistance from Top Irish Experts for Impeccable Assignments on
@@ -1325,9 +1325,9 @@
                 </p>
             </div>
         </div>
-        <div class="">
+        {{-- <div class="">
             <img src="{{ asset('images/separator.svg') }}" alt="separator">
-        </div>
+        </div> --}}
     </section>
 
     {{-- <section class=" mx-auto bg-white p-5 py-10">
@@ -1583,11 +1583,9 @@
         </div>
     </section>
 
-    <section class="overflow-hidden mt-10 pb-24 px-4">
-        <div class="">
-            <img src="{{ asset('images/separator.svg') }}" alt="separator">
-        </div>
-        <div class=" mx-auto px-8 lg:px-16 ">
+    <section class="overflow-hidden mt-10 pb-24 px-4 ">
+
+        <div class=" mx-auto px-8 lg:px-16 border-[1rem] border-primary-two border-x-0">
             <div class="my-auto">
                 <h3 class="primary-heading">
                     Creating a Legacy of Knowledge through Our Assignment
@@ -1613,9 +1611,7 @@
             </div>
 
         </div>
-        <div class="">
-            <img src="{{ asset('images/separator.svg') }}" alt="separator">
-        </div>
+
         {{-- <div class="container mx-auto">
 
             <div class="grid mt-20 ">

@@ -2001,6 +2001,20 @@ video {
   border-width: 2px;
 }
 
+.border-\[1rem\] {
+  border-width: 1rem;
+}
+
+.border-y-0 {
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.border-x-0 {
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
