@@ -28,7 +28,7 @@
                     Are you a student struggling to meet your assignment's deadline?
                     <br><br>
                     Do you want a helping hand to share your assignment burden? We are a click away.
-<br><br>
+                    <br><br>
                     For any type of assignment help Ireland, talk to us and get your concerns resolved for a smooth academic
                     journey.
 
@@ -276,7 +276,7 @@
                     </div>
 
                     <a href="{{ route('order') }}"
-                        class="flex flex-col sm:flex-row justify-between text-white text-center bg-primary-two border-0 py-2 px-6 focus:outline-none hover:bg-primary-one rounded text-lg w-auto">
+                        class="flex flex-row justify-between text-white text-center bg-primary-two border-0 py-2 px-6 focus:outline-none hover:bg-primary-one rounded text-lg w-auto">
                         <span>
                             Proceed to Order
                         </span>
@@ -1048,7 +1048,7 @@
     </section>
 
     {{-- Just click away --}}
-    <section class="py-10">
+    <section class="">
         <div class="container grid grid-cols-1 lg:grid-cols-2 mx-auto px-8 lg:px-16 gap-y-6">
             <div class="my-auto" data-aos="fade-right" data-aos-duration="2000">
                 <h3 class="primary-heading">
@@ -1085,7 +1085,7 @@
             </div>
         </div>
 
-        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto px-8 lg:px-28 py-14 gap-x-8 gap-y-8">
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto px-8 lg:px-28 pt-10 gap-x-8 gap-y-8">
             <div data-aos="fade-up" data-aos-duration="1300">
                 <img src="{{ asset('imgs/service-icon1.webp') }}" class="w-16" alt="{{ config('app.name') }}" />
                 <h4 class="font-bold text-lg pb-3 pt-2"> Quality </h4>
@@ -1237,7 +1237,100 @@
         </ul>
     </section>
 
-    <section class=" mx-auto bg-white p-5 py-10">
+    <section class="mx-auto bg-white p-5 py-10">
+        <div class="space-x-2 container grid grid-cols-1 lg:grid-cols-2 mx-auto px-8 lg:px-16 ">
+            <div class="my-auto" data-aos="fade-left" data-aos-duration="2000">
+                <h3 class="primary-heading">
+                    Hire Our Do My Assignment Ireland Services & Get Closer to Your Academic Success with Our Top 3
+                    Features; Quality, Niche Experts & Timeliness
+                </h3>
+                <p class="primary-text text-center">
+                    Hiring online help can be difficult sometimes because of the ample choices available. But when
+                    coming to us, you can be assured of three factors; Quality, Niche Experts and Timeliness. We
+                    give you a tailored approach for your assignments that sets you apart from other students. Not
+                    only this, our experts assist in making your assignments remarkable. From research to writing to
+                    conclusion and presentation, each section is neatly done to let you score higher.
+                    <br> <br>
+                    Keeping Quality as our top priority our experts write assignments that can exceed your
+                    professor’s expectations and sets your path towards academic brilliance. And the last most
+                    appreciated factor of ours is Timeliness. We respect your time and hence never go a minute above
+                    it. So, if you want all these factors at one place, our “do my assignment Ireland” services are
+                    only a click away.
+
+                </p>
+            </div>
+
+
+            <div class="my-auto" data-aos="fade-right" data-aos-duration="2000">
+                <h3 class="primary-heading">
+                    Leading Assignment Help Ireland - Our Dedicated Support for Urgent Assignments to Free You from
+                    Stress
+                </h3>
+                <p class="primary-text text-center">
+                    Overburdened with assignment loads? Or is academic stress giving you sleepless nights?
+                    <br><br>
+                    Now, no more panic as we have the solutions for you. If your assignment is taking too long and
+                    the deadline is near, you can rush to our support team. We have a dedicated team who deal with
+                    urgent assignment writing Ireland everywhere from Dublin, Cork, Limerick, Galway, Waterford,
+                    Belfast Ireland. So, no matter to which city you belong, our fast and reliable academic support
+                    by Irish writers is ready to assist. Also, we take the burden off your shoulders by giving you
+                    well-researched and well-written assignments. So, if you want to enjoy the peace of mind, our
+                    quality and stress-free academic support is right here for you.
+
+                </p>
+            </div>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/separator.svg') }}" alt="separator">
+        </div>
+        <div class="space-x-2 container grid grid-cols-1 lg:grid-cols-2 mx-auto px-8 lg:px-16 ">
+            <div class="my-auto" data-aos="fade-left" data-aos-duration="2000">
+                <h3 class="primary-heading">
+                    From Ideas to Excellence - Get Assistance from Top Irish Experts for Impeccable Assignments on
+                    the Leading Assignment Writing Ireland Website
+                </h3>
+                <p class="primary-text text-center">
+                    Assignments aren’t a minor thing. You shouldn’t undermine its role in your academic journey.
+                    Every drop of it counts in your final grades. By not prioritizing it, you can leave the room for
+                    disappointing grades. So, if you’re feeling stuck or don’t have the ample time to finish it
+                    before the deadline, our professional assignment help Ireland service providers can be of great
+                    help.
+                    <br><br>
+                    From research to brainstorming ideas to writing the first draft, our writers are well-trained to
+                    do the job as per your requirements. With their adeptness in academia, your assignments won’t
+                    only stand out but will also show your command over the subject. Still, if you’re searching for
+                    someone to “write my assignment Ireland,” you can try us with a sample. We are sure you won’t
+                    regret it later.
+
+                </p>
+            </div>
+
+
+            <div class="my-auto" data-aos="fade-right" data-aos-duration="2000">
+                <h3 class="primary-heading">
+                    Diversified Assignment Writing Service Ireland for Students of All Grades at Cheapest Prices
+                </h3>
+                <p class="primary-text text-center">
+                    Being in academia for more than 5 years, we now have a pool of writers who are also experts in
+                    their fields. Starting from Medical, Law, Social Science, Nursing, Accounting or Literature, you
+                    can get in touch with the professionals and get assistance regardless of the complexity and the
+                    type of the assignments. All our assignment makers possess degrees from the reputable institutes
+                    of Ireland. Also, they are highly qualified and hold strong grasp on their subjects.
+                    <br> <br>
+                    So, without any hassles and worries of failing your grades, get your hands on the leading
+                    assignment writing service Ireland that is meant to fasten your growth and give you excellent
+                    results. Regardless of your subject or level, our dedicated team works closely with you to
+                    ensure that the assignment reflects your aspirations and brings great results for you.
+
+                </p>
+            </div>
+        </div>
+        <div class="">
+            <img src="{{ asset('images/separator.svg') }}" alt="separator">
+        </div>
+    </section>
+
+    {{-- <section class=" mx-auto bg-white p-5 py-10">
         <div
             class="bg-slate-100 rounded-3xl border-gray-600 p-5 border-spacing-2 box-border my-4 shadow-lg shadow-black md:w-[80%] mx-auto">
             <div class="md:p-5 p-2 border-dashed border-2 border-gray-800">
@@ -1322,7 +1415,7 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- FAQ -->
     <section>
@@ -1491,11 +1584,39 @@
     </section>
 
     <section class="overflow-hidden mt-10 pb-24 px-4">
-        <div class="container mx-auto">
-            <!-- heading -->
-            <div class="mt-10 text-center">
+        <div class="">
+            <img src="{{ asset('images/separator.svg') }}" alt="separator">
+        </div>
+        <div class=" mx-auto px-8 lg:px-16 ">
+            <div class="my-auto">
+                <h3 class="primary-heading">
+                    Creating a Legacy of Knowledge through Our Assignment
+                    Writing Service Ireland
+                </h3>
+                <p class="primary-text ">
+                    Our website isn’t just a source of seeking academic help for students but also a platform where
+                    expertise meets creativity in creating assignments that stand as a pillar of scholarly
+                    excellence. We take pride in what we do and how we do. We aren’t only assignment writing Ireland
+                    website but also the architects of intellect whose work is to weave insights and research into
+                    papers that ignites innovation.
+                    <br>
+                    Our platform guarantees exclusivity, diversification of subjects, instant help, affordability
+                    and quality-driven assignments. So, feel free to contact us in harnessing the power of words to
+                    create a legacy with your assignments.
 
+                </p>
+                <p class="font-bold text-center">"Here’s a Chance to Get on Top of your Assignments with the Best Do My
+                    Assignment Ireland Website
+                    as We Guarantee Success by Letting You Create an Impact with the Power of Words. Now, Get Ready
+                    to Climb the Ladder of Success!"
+                </p>
             </div>
+
+        </div>
+        <div class="">
+            <img src="{{ asset('images/separator.svg') }}" alt="separator">
+        </div>
+        {{-- <div class="container mx-auto">
 
             <div class="grid mt-20 ">
                 <!-- grid 1 -->
@@ -1503,7 +1624,8 @@
                     <div class="bg-white rounded-r-3xl rounded-tl-3xl ring-2 shadow-xl p-5">
                         <div class="flex items-center ">
                             <div class=" text-center">
-                                <h3 class="font-bold text-3xl">Creating a Legacy of Knowledge through Our Assignment Writing Service Ireland</h3>
+                                <h3 class="font-bold text-3xl">Creating a Legacy of Knowledge through Our Assignment
+                                    Writing Service Ireland</h3>
                             </div>
                             <div class="ml-[10%] sm:block hidden">
                                 <img alt="{{ config('app.name') }}" src="{{ asset('images/write-file.png') }}">
@@ -1511,14 +1633,14 @@
                         </div>
                         <p class="text-sm mt-5">
                             Our website isn’t just a source of seeking academic help for students but also a platform where
-                        expertise meets creativity in creating assignments that stand as a pillar of scholarly
-                        excellence. We take pride in what we do and how we do. We aren’t only assignment writing Ireland
-                        website but also the architects of intellect whose work is to weave insights and research into
-                        papers that ignites innovation.
-                        <br>
-                        Our platform guarantees exclusivity, diversification of subjects, instant help, affordability
-                        and quality-driven assignments. So, feel free to contact us in harnessing the power of words to
-                        create a legacy with your assignments.
+                            expertise meets creativity in creating assignments that stand as a pillar of scholarly
+                            excellence. We take pride in what we do and how we do. We aren’t only assignment writing Ireland
+                            website but also the architects of intellect whose work is to weave insights and research into
+                            papers that ignites innovation.
+                            <br>
+                            Our platform guarantees exclusivity, diversification of subjects, instant help, affordability
+                            and quality-driven assignments. So, feel free to contact us in harnessing the power of words to
+                            create a legacy with your assignments.
                         </p>
                         <h4 class="font-bold px-5 sm:text-4xl text-2xl">
                             Here’s a Chance to Get on Top of your Assignments with the Best Do My Assignment Ireland Website
@@ -1529,7 +1651,7 @@
                 </div>
 
             </div>
-        </div>
+        </div> --}}
     </section>
 
 
